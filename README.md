@@ -6,6 +6,20 @@
 
 본 프로그램은 MIT License를 따르며, PHP 7.x 에서 개발되었으므로, 하위버전의 호환성은 고려하지 않았습니다.
 
+굳이 고려하진 않았지만, 한빛가람의 코드는 대게 PHP 5.2 이상에서도 잘 작동하므로.. 이상 없을거라 생각합니다.
+
+## 기본 서버 환경
+### OpenSSL
+- 서버 내에 OpenSSL이 필수로 설치되어 있어야합니다.
+- PHP 모듈에 OpenSSL이 설치되어 있어야 합니다.
+### cURL
+#### Linux Server 의 경우..
+- 서버 내에 cURL 을(를) 설치해야합니다.
+- PHP에 cURL 확장을 설치해야합니다.
+  - cURL 확장에서 OpenSSL을 활성화 시켜야 합니다.
+#### Windows Server 의 경우
+- 서버 내에 cURL 확장을 활성화 시켜야 합니다. 활성화는 php.ini에서 가능합니다.
+  - cURL 확장에서 OpenSSL을 활성화 시켜야 합니다.
 ## 그누보드 설치 방법
 ### 파일 플러그인 폴더 업로드
 /plugin/hanbitgaram/nc_alimtalk 을 그누보드 /plugin/ 에 업로드 합니다.<br>
