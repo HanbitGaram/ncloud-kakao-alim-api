@@ -15,7 +15,8 @@
 /extend/ 폴더에 hanbitgaram.ncalimtalk.extend.php 를 업로드합니다.
 
 ### 함수 사용방법
-사용방법 - nctalk(**String** $templateCode, **String** $PhoneNum, **String** $content, **Array** $buttons);
+사용방법<br>
+<code> nctalk(**String** $templateCode, **String** $PhoneNum, **String** $content, **Array** $buttons); </code>
 
 #### $buttons 옵션
 - **String** type
