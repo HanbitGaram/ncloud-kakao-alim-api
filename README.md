@@ -18,15 +18,14 @@
 사용방법 - nctalk(**String** $templateCode, **String** $PhoneNum, **String** $content, **Array** $buttons);
 
 #### $buttons 옵션
->**String** type
->> 배송조회 - DS<br>
->> 웹 링크 - WL<br>
->> 앱 링크 - AL<br>
->> 봇 키워드 - BK<br>
->> 메시지 전달 - MD<br>
-
-> **String** name - 버튼 이름<br>
-> **String** linkMobile - 모바일 웹 링크 <br>
-> **String** linkPc - PC 웹 링크 <br>
-> **String** schemeIos - 아이폰용 앱 스키마<br>
-> **String** schemeAndroid - 안드로이드용 앱 스키마<br>
+- **String** type
+  - 배송조회 - DS<br>
+  - 웹 링크 - WL<br>
+  - 앱 링크 - AL<br>
+  - 봇 키워드 - BK<br>
+  - 메시지 전달 - MD<br>
+-  **String** name - 버튼 이름<br>
+-  **String** linkMobile - 모바일 웹 링크 <br>
+-  **String** linkPc - PC 웹 링크 <br>
+-  **String** schemeIos - 아이폰용 앱 스키마<br>
+-  **String** schemeAndroid - 안드로이드용 앱 스키마<br>
