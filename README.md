@@ -8,7 +8,7 @@
 
 ## 그누보드 설치 방법
 ### 파일 플러그인 폴더 업로드
-/plugin/hanbitgaram/nc_alimtalk 을 그누보드 /plugin/ 에 업로드 합니다.
+/plugin/hanbitgaram/nc_alimtalk 을 그누보드 /plugin/ 에 업로드 합니다.<br>
 /plugin/hanbitgaram/nc_alimtalk/user_config.php 파일 내에 api키와 설정 값을 집어넣습니다.
 
 ### 파일 extend 폴더 업로드
