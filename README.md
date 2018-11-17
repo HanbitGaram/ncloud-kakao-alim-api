@@ -16,7 +16,7 @@
 
 ### 함수 사용방법
 사용방법<br>
-<code> nctalk(**String** $templateCode, **String** $PhoneNum, **String** $content, **Array** $buttons); </code>
+<code> ncTalk(**String** $templateCode, **String** $PhoneNum, **String** $content, **Array** $buttons); </code>
 
 #### 함수 사용 예시
  \<?php<br>
@@ -31,7 +31,7 @@
      <br>
      주문 후 하자품은 이상시 3일 내로 고객센터를 통해 무상 교환해야합니다.<br>
      "; // 탬플릿 내용<br>
-    nctalk($templateCode, '01012345678', $content); // 알림톡 발송 <br>
+    ncTalk($templateCode, '01012345678', $content); // 알림톡 발송 <br>
   ?\>
 
 #### $buttons 옵션
