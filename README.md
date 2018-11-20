@@ -1,7 +1,7 @@
 # ncloud-kakao-alim-api
 **저는 영어를 못하는 영알못입니다. 그러므로 번역은 부디 알아서 해주시길..** <br>
 **I can not write English well, so I do not provide English language documentation.**<br>
-**Translation is your own part.  :-)**
+**Translation is your part.  :-)**
 
 네이버 NCloud용 카카오톡 알림톡 API<br>
 네이버에서 제공하는 ncloud의 카카오톡 비즈메시지의 알림톡을 쉽게 사용할 수 있게 만든 그누보드 플러그인형 API입니다.
